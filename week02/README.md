@@ -1,1 +1,2 @@
 - Solved kata: makeNegative
+- Solved kata: summation
