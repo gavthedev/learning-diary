@@ -1,2 +1,3 @@
 - Solved kata: makeNegative
 - Solved kata: summation
+- Work day: no kata solved, reviewed JS notes
