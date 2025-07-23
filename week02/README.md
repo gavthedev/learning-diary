@@ -1,3 +1,5 @@
 - Solved kata: makeNegative
 - Solved kata: summation
 - Work day: no kata solved, reviewed JS notes
+- Solved kata: sum arrays
+- Studied JS objects(basics, methods, this)
