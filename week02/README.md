@@ -3,3 +3,4 @@
 - Work day: no kata solved, reviewed JS notes
 - Solved kata: sum arrays
 - Studied JS objects(basics, methods, this)
+- Work day: no coding. Plan for tomorrow > finish reduce kata + 1 Codewars 8 kyu
