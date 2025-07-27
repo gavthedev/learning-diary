@@ -8,3 +8,4 @@
 - Solved kata: greet (Hello, )
 - Solved kata: setAlarm
 - WIP: additive inverse (invert array signs))
+- Solved kata: reverseSeq
