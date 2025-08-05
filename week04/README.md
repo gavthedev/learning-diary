@@ -1,1 +1,2 @@
 - Kata: Fake Binary. Tomorrow: 1x 7–8 kyu + 15m ES6 review
+- Katas: Reverse Words + Accum. Tutorials: Mosh JS — Objects (1h20m). Tomorrow: more 7–8 kyu + ES6
