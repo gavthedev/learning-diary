@@ -1,1 +1,2 @@
 - JS-only: fixed ESM modules; added calculateTip & calculateSplit with tiny console tests; next: L1 HTML button → L2 live updates.
+- TipCalc L1: wired button (read> compute> write), basic error state; fixed 'handleClick is not defined' & 'hidden' typo. Next: per-person + live updates (L2).
