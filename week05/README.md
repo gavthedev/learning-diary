@@ -1,0 +1,1 @@
+- JS-only: fixed ESM modules; added calculateTip & calculateSplit with tiny console tests; next: L1 HTML button → L2 live updates.
