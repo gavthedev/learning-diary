@@ -5,3 +5,4 @@
    Live updates on bill/rate/people
    Validation: bill>0, rate≥0, people≥1 (int)
    UI-only rounding (toFixed)
+- Convert a Number to a String! and Convert a String to a Number! katas solved
