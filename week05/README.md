@@ -6,3 +6,4 @@
    Validation: bill>0, rate≥0, people≥1 (int)
    UI-only rounding (toFixed)
 - Convert a Number to a String! and Convert a String to a Number! katas solved
+- HTML: created annotated TipCalc form (inputs, labels, error block). JS: solved SeriesSum kata (7kyu) with rounding fix.
