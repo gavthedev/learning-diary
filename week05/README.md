@@ -7,3 +7,4 @@
    UI-only rounding (toFixed)
 - Convert a Number to a String! and Convert a String to a Number! katas solved
 - HTML: created annotated TipCalc form (inputs, labels, error block). JS: solved SeriesSum kata (7kyu) with rounding fix.
+- No code today, had a long shift. Still checking in to keep momentum.
