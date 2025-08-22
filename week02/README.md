@@ -1,4 +1,4 @@
-# wWeek 02-— Kata Momentum & Object Review
+# Week 02 - Kata Momentum & Object Review
 
 ## Goals:
 
