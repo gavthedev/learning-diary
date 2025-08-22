@@ -1,11 +1,34 @@
-- Solved kata: makeNegative
-- Solved kata: summation
-- Work day: no kata solved, reviewed JS notes
-- Solved kata: sum arrays
-- Studied JS objects(basics, methods, this)
-- Work day: no coding. Plan for tomorrow > finish reduce kata + 1 Codewars 8 kyu
-- Studied object cloning
-- Solved kata: greet (Hello, )
-- Solved kata: setAlarm
-- WIP: additive inverse (invert array signs))
-- Solved kata: reverseSeq
+# wWeek 02-— Kata Momentum & Object Review
+
+## Goals:
+
+- 4x kata (8kyu)
+
+- Finish findNeedle (reduce version)
+
+- Review JS objects & cloning
+
+
+
+New: Solved makeNegative kata
+
+New: Solved summation kata
+
+Note: Work day - no kata solved, reviewed JS notes
+
+New: Solved sum arrays kata
+
+Note: Studied JS objects (basics, methods, this)
+
+Note: Work day - no coding
+
+Plan: Finish reduce kata + 1x 8kyu tomorrow
+
+Note: Studied object cloning
+
+New: Solved setAlarm kata
+
+WIP: additive inverse (invert array signs)
+
+New: Solved reverseSeq kata
+
