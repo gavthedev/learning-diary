@@ -6,7 +6,8 @@ Built with HTML, CSS and vanilla JavaScript.
 ---
 
 ## 🚀 Live Demo  
-[Coming soon]
+[https://tip-calculator-srof.onrender.com](https://tip-calculator-srof.onrender.com)
+
 
 ---
 
@@ -46,3 +47,4 @@ tip-calc/
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
