@@ -22,3 +22,5 @@ New: Descending Order (7kyu) - built custom max+splice sorting loop
 
 New: Highest and Lowest (7kyu) - parsed string nums and used Math.max/min
 
+Note: Deep dive into split().map(Number) — memory, array creation, stack/heap explained
+Plan: Solve 1x kata (7–8kyu) + start planning TipCalc validation module
