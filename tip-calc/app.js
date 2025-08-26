@@ -19,7 +19,7 @@ function updateUI(result)
                               : "Invalid input.";
 }
 
-document.getElementById("tipForm").addEventListener("submit", function (e){
+document.getElementById("tip-form").addEventListener("submit", function (e){
                                                     e.preventDefault();
 
 const bill = Number(document.getElementById("bill").value);
@@ -32,3 +32,4 @@ if (error) return alert(error);
 const tip = calculateTip(bill, rate, people);
 updateUI(tip);
 });
+
