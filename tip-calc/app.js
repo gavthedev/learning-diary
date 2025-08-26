@@ -12,8 +12,7 @@ function validateInputs(bill, rate, people)
   return null;
 }
 
-function updateUI(result)
-{
+function updateUI(result) {
   const output = document.getElementById("total");
   const resultsSection = document.getElementById("results");
 
@@ -25,6 +24,7 @@ function updateUI(result)
     resultsSection.hidden = true;
   }
 }
+
 
 
 document.getElementById("tip-form").addEventListener("submit", function (e){
@@ -40,6 +40,7 @@ if (error) return alert(error);
 const tip = calculateTip(bill, rate, people);
 updateUI(tip);
 });
+
 
 
 
