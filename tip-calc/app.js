@@ -32,7 +32,7 @@ document.getElementById("tip-form").addEventListener("submit", function (e){
                                                     e.preventDefault();
 
 const bill = Number(document.getElementById("bill").value);
-const rate = Number(document.getElementById("tip").value);
+const rate = Number(document.getElementById("rate").value);
 const people = Number(document.getElementById("people").value);
 
 const error = validateInputs(bill, rate, people);
@@ -41,6 +41,7 @@ if (error) return alert(error);
 const tip = calculateTip(bill, rate, people);
 updateUI(tip);
 });
+
 
 
 
