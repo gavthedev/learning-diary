@@ -1,25 +1,34 @@
-const form = document.getElementById('tip-form');
-const billInput = document.getElementById('bill');
-const tipInput = document.getElementById('tip');
-const peopleInput = document.getElementById('people');
-const resultsSection = document.getElementById('results');
-const totalDisplay = document.getElementById('total');
+function calculateTip(bill, rate, people)
+{
+  const total = (bill * (rate / 100)) / people;
+  return Number.isFinite(total) ? total.toFixed(2) : null;
+}
 
-form.addEventListener('submit', function (e) {
-  e.preventDefault();
+function validateInputs(bill, rate, people)
+{
+  if (bill <= 0 || isNaN(bill)) return "Bill must be over 0";
+  if (rate < 0 || isNaN(rate)) return "Rate can't be negative";
+  if (people < 1 || !Number.isInteger(people)) return "Minimum people can be is 1";
+  return null;
+}
 
-  const bill = parseFloat(billInput.value);
-  const tip = parseFloat(tipInput.value);
-  const people = parseInt(peopleInput.value);
+function updateUI(result)
+{
+  const output = document.getElementById("tipOut");
+  output.textContent = result ? `Tip per person CHF ${result}`
+                              : "Invalid input.";
+}
 
-  if (isNaN(bill) || bill <= 0 || isNaN(tip) || tip < 0 || isNaN(people) || people < 1) {
-    alert("Please enter valid values.");
-    return;
-  }
+document.getElementById("tipForm").addEventListener("submit", function (e){
+                                                    e.preventDefault();
 
-  const tipAmount = (bill * tip) / 100;
-  const totalPerPerson = (bill + tipAmount) / people;
+const bill = Number(document.getElementById("bill").value);
+const rate = Number(document.getElementById("rate").value);
+const people = Number(document.getElementById("people").value);
 
-  totalDisplay.textContent = totalPerPerson.toFixed(2);
-  resultsSection.hidden = false;
+const error = validateInputs(bill, rate, people);
+if (error) return alert(error);
+
+const tip = calculateTip(bill, rate, people);
+updateUI(tip);
 });
