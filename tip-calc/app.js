@@ -27,6 +27,7 @@ function updateUI(result) {
 
 
 
+
 document.getElementById("tip-form").addEventListener("submit", function (e){
                                                     e.preventDefault();
 
@@ -40,6 +41,7 @@ if (error) return alert(error);
 const tip = calculateTip(bill, rate, people);
 updateUI(tip);
 });
+
 
 
 
