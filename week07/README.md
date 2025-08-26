@@ -13,3 +13,5 @@ New: Deployed TipCalc via Render - static site with working HTML + base JS
 New: Added README.md with live link section and features list  
 New: Scaffolded app.js logic (to be rewritten manually)  
 WIP: Screenshot capture + styling for TipCalc UI
+
+ Rewrote core logic in app.js: added input validation, clean UI update, now fully working
