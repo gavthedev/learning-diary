@@ -14,7 +14,7 @@ function validateInputs(bill, rate, people)
 
 function updateUI(result)
 {
-  const output = document.getElementById("tipOut");
+  const output = document.getElementById("total");
   output.textContent = result ? `Tip per person CHF ${result}`
                               : "Invalid input.";
 }
@@ -32,4 +32,5 @@ if (error) return alert(error);
 const tip = calculateTip(bill, rate, people);
 updateUI(tip);
 });
+
 
