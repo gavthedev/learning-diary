@@ -15,3 +15,5 @@ New: Scaffolded app.js logic (to be rewritten manually)
 WIP: Screenshot capture + styling for TipCalc UI
 
  Rewrote core logic in app.js: added input validation, clean UI update, now fully working
+Solved kata: 7kyu - Disemvowel Trolls
+- Practiced string manipulation with .replace and RegExpl.
