@@ -20,4 +20,9 @@ Solved kata: 7kyu - Disemvowel Trolls
 - Reviewed CSS layout concepts (Flexbox, justify/align/gap)
 - Planned form row structure for TipCalc
 - Explored styling priorities (spacing, color, feedback)
-- kata: solved 7 kyu – Shortest Word\nmethod: split words, map length, find min\nnotes: used Math.min + spread
+- kata: solved 7 kyu 
+- Shortest Word\nmethod: split words, map length, find  min used Math.min + spread
+- Practiced string manipulation with .replace and RegExpl.
+- Reviewed CSS layout concepts (Flexbox, justify/align/gap)
+- Planned form row structure for TipCalc
+- Explored styling priorities (spacing, color, feedback)
