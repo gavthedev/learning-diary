@@ -6,3 +6,6 @@
 - Started bootcamp prep week - Completed Codecademy Introduction to JavaScript
 - Started Week08: bootcamp technical prep sprint
 - Completed Codecademy Introduction to JS
+- Completed Codecademy lessons up to 'Arrays'
+- Practiced function syntax, const usage, and function calls with arguments
+- Focused on JS fundamentals (conditionals, functions) – no extra tasks today
