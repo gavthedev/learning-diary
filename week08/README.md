@@ -9,3 +9,6 @@
 - Completed Codecademy lessons up to 'Arrays'
 - Practiced function syntax, const usage, and function calls with arguments
 - Focused on JS fundamentals (conditionals, functions) – no extra tasks today
+- Completed all Codecademy JS lessons (1–7)
+-Solved: 6kyu 'Stop gninnipS My sdroW!' – string manipulation, map/split/join
+-Solved: 6kyu 'Find the odd int' – XOR logic for finding unpaired int
