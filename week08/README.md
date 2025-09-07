@@ -12,3 +12,4 @@
 - Completed all Codecademy JS lessons (1–7)
 -Solved: 6kyu 'Stop gninnipS My sdroW!' – string manipulation, map/split/join
 -Solved: 6kyu 'Find the odd int' – XOR logic for finding unpaired int
+- No coding activity today. Resetting for next dev sprint.
