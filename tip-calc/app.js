@@ -15,14 +15,20 @@ function validateInputs(bill, rate, people)
 }
 
 function updateUI(result) {
-  const output = document.getElementById("total");
+  const totalEl = document.getElementById("total");
   const resultsSection = document.getElementById("results");
+  const tipEl = document.getElementById("tip");
+  const perPersonEl = document.getElementById("perPerson");
 
   if (result) {
-    output.textContent = `CHF ${result}`;
+    totalEl.textContent = `CHF ${result.total}`;
+    tipEl.textContent = `CHF ${result.tip}`;
+    perPersonEl.textContent = `CHF ${result.perPerson}`;
     resultsSection.hidden = false;
   } else {
-    output.textContent = "--";
+    totalEl.textContent = "--";
+    tipEl.textContent = "--";
+    perPersonEl.textContent = "--";
     resultsSection.hidden = true;
   }
 }
@@ -43,6 +49,7 @@ if (error) return alert(error);
 const tip = calculateTip(bill, rate, people);
 updateUI(tip);
 });
+
 
 
 
