@@ -1,7 +1,9 @@
-function calculateTip(bill, rate, people)
-{
-  const total = (bill * (rate / 100)) / people;
-  return Number.isFinite(total) ? total.toFixed(2) : null;
+function calculateTip(amount, ratePct, numberOfPeople) {
+  if (!(amount > 0) || !(ratePct >= 0)) return null;
+  const tip = +(amount * (ratePct / 100)).toFixed(2);
+  const total = +(amount + tip).toFixed(2);
+  const perPerson = +(total / numberOfPeople).toFixed(2);
+  return { total, tip, perPerson };
 }
 
 function validateInputs(bill, rate, people)
@@ -41,6 +43,7 @@ if (error) return alert(error);
 const tip = calculateTip(bill, rate, people);
 updateUI(tip);
 });
+
 
 
 
