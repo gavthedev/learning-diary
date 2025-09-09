@@ -46,9 +46,11 @@ const people = Number(document.getElementById("people").value);
 const error = validateInputs(bill, rate, people);
 if (error) return alert(error);
 
-const tip = calculateTip(bill, rate, people);
-updateUI(tip);
+const result = calculateTip(bill, rate, people);
+updateUI(result);
+
 });
+
 
 
 
