@@ -1,10 +1,17 @@
 function calculateTip(amount, ratePct, numberOfPeople) {
   if (!(amount > 0) || !(ratePct >= 0)) return null;
-  const tip = +(amount * (ratePct / 100)).toFixed(2);
-  const total = +(amount + tip).toFixed(2);
-  const perPerson = +(total / numberOfPeople).toFixed(2);
-  return { total, tip, perPerson };
+
+  const tip = amount * (ratePct / 100);
+  const total = amount + tip;
+  const perPerson = total / numberOfPeople;
+
+  return {
+    total: +total.toFixed(2),
+    tip: +tip.toFixed(2),
+    perPerson: +perPerson.toFixed(2)
+  };
 }
+
 
 function validateInputs(bill, rate, people)
 {
@@ -50,6 +57,7 @@ const result = calculateTip(bill, rate, people);
 updateUI(result);
 
 });
+
 
 
 
