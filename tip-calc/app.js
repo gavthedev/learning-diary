@@ -26,11 +26,19 @@ function updateUI(result) {
   const resultsSection = document.getElementById("results");
   const tipEl = document.getElementById("tip");
   const perPersonEl = document.getElementById("perPerson");
+  const perPersonLine = document.getElementById("perPersonLine");
 
   if (result) {
     totalEl.textContent = `CHF ${result.total}`;
     tipEl.textContent = `CHF ${result.tip}`;
-    perPersonEl.textContent = `CHF ${result.perPerson}`;
+
+    if (Number(document.getElementById("people").value) > 1) {
+      perPersonEl.textContent = `CHF ${result.perPerson}`;
+      perPersonLine.hidden = false;
+    } else {
+      perPersonLine.hidden = true;
+    }
+
     resultsSection.hidden = false;
   } else {
     totalEl.textContent = "--";
@@ -39,10 +47,6 @@ function updateUI(result) {
     resultsSection.hidden = true;
   }
 }
-
-
-
-
 document.getElementById("tip-form").addEventListener("submit", function (e){
                                                     e.preventDefault();
 
@@ -57,6 +61,7 @@ const result = calculateTip(bill, rate, people);
 updateUI(result);
 
 });
+
 
 
 
