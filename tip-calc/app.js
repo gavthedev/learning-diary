@@ -47,6 +47,7 @@ function updateUI(result) {
     resultsSection.hidden = true;
   }
 }
+
 document.getElementById("tip-form").addEventListener("submit", function (e){
                                                     e.preventDefault();
 
@@ -61,6 +62,7 @@ const result = calculateTip(bill, rate, people);
 updateUI(result);
 
 });
+
 
 
 
