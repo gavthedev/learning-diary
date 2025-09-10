@@ -15,3 +15,4 @@
 - Solved: 6kyu 'Find the odd int' – XOR logic for finding unpaired int
 - No coding activity today. Resetting for next dev sprint.
 
+- Solved 6kyu kata: Find the unique string
