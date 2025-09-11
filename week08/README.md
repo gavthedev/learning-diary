@@ -16,3 +16,5 @@
 - No coding activity today. Resetting for next dev sprint.
 
 - Solved 6kyu kata: Find the unique string
+- Finished core logic for calculateTip()
+- Created Replit account for tech interview prep
