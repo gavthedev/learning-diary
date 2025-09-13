@@ -20,3 +20,4 @@
 - Created Replit account for tech interview prep
 - Solved 6kyu 'Find the unique string'
 - Completed Constructor technical challenge
+Solved 6kyu kata: arrange words by embedded number
