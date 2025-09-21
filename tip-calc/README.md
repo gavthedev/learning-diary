@@ -21,7 +21,9 @@ Built with HTML, CSS and vanilla JavaScript.
 ---
 
 ## 📸 Screenshot  
-![Tip Calculator Screenshot](./screenshot.png)
+![Tip Calculator Screenshot](./image.png)
+<img width="352" height="463" alt="image" src="https://github.com/user-attachments/assets/2ecf6bce-f066-4726-8a8d-67e5d740755f" />
+
 
 ---
 
@@ -47,4 +49,5 @@ tip-calc/
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
 
