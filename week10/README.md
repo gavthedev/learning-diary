@@ -12,3 +12,4 @@ New: Solved 'Moving Zeros To The End' (5kyu) — filtered and re-appended zeros 
 New: solved 6kyu kata 'Find the Parity Outlier
 New: Solved x2 6kuy katas, 6 kyu Array.diff and 6 kyu Who likes it?
 New: solved 6kuy kata Persistent Bugger.
+- Started styling Tip Calculator (layout, spacing, clean UI).
