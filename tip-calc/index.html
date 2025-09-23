@@ -11,23 +11,23 @@
     <h1>Tip Calculator</h1>
     <form id="tip-form">
       <label for="bill">Bill Amount</label>
-      <input type="number" id="bill" min="0" step="0.01" required />
+      <input type="number" inputmode="numeric" id="bill" min="0" step="0.01" required />
 
       <label for="rate">Tip %</label>
-      <input type="number" id="rate" min="0" max="100" step="1" value="15" />
+      <input type="number" inputmode="numeric" id="rate" min="0" max="100" step="1" value="15" />
 
       <label for="people">Number of People</label>
-      <input type="number" id="people" min="1" step="1" value="1" />
+      <input type="number" inputmode="numeric" id="people" min="1" step="1" value="1" />
 
       <button type="submit">Calculate</button>
+      <p id="formError" class="error" aria-live="polite" role="status"></p>
     </form>
 
-    <section id="results" hidden aria-live="polite">
-  <p>Total (bill + tip): <strong id="total">--</strong></p>
-  <p>Tip only: <strong id="tip">--</strong></p>
-  <p id="perPersonRow">Tip per person: <strong id="perPerson">--</strong></p>
-</section>
-
+    <section id="results" aria-live="polite" aria-atomic="true">
+      <p>Total (bill + tip): <strong id="total">--</strong></p>
+      <p>Tip only: <strong id="tip">--</strong></p>
+      <p id="perPersonRow">Tip per person: <strong id="perPerson">--</strong></p>
+    </section>
   </main>
 
   <script src="app.js"></script>
