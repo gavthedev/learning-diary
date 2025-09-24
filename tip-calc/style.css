@@ -1,41 +1,65 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
+
+html { background: #fff; }
 
 body {
-  font-family: sans-serif;
-  background: #f5f5f5;
-  padding: 2rem;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #fff;
+  color: #111;
   margin: 0;
+  padding: 2rem;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+@supports (height: 100dvh) {
+  body { min-height: 100dvh; }
 }
 
 main {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  max-width: 400px;
+  position: relative;
   width: 100%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+.theme-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0.25rem 0.6rem;
+  background: #fff;
+  color: #111;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  -webkit-appearance: none;
+  appearance: none;
+}
+.theme-toggle:hover { background: #f7f7f7; }
+.theme-toggle:focus-visible { outline: 3px solid #0056b3; outline-offset: 2px; }
 
 form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-label {
-  font-weight: bold;
-}
+label { font-weight: 600; }
 
 input {
   padding: 0.5rem;
   font-size: 1rem;
   border-radius: 6px;
   border: 1px solid #ccc;
+  background: #fff;
+  color: #111;
 }
 
 input:focus-visible,
@@ -44,24 +68,19 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
-.input--error {
-  border-color: #b00020;
-}
+.input--error { border-color: #b00020; }
 
 button[type="submit"] {
-  background: #007bff;
-  color: #fff;
-  border: none;
   padding: 0.75rem;
   font-size: 1rem;
+  color: #fff;
+  background: #007bff;
+  border: 0;
   border-radius: 20px;
   cursor: pointer;
   transition: background 0.2s ease;
 }
-
-button[type="submit"]:hover {
-  background: #0056b3;
-}
+button[type="submit"]:hover { background: #0056b3; }
 
 #results {
   margin-top: 0;
@@ -70,8 +89,8 @@ button[type="submit"]:hover {
   background: #f0f0f0;
   border-radius: 8px;
   opacity: 0;
-  pointer-events: none;
   transform: translateY(10px);
+  pointer-events: none;
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -83,43 +102,53 @@ button[type="submit"]:hover {
 
 .hidden {
   opacity: 0;
-  pointer-events: none;
   transform: translateY(10px);
+  pointer-events: none;
 }
 
-#results strong {
-  font-size: 1.2rem;
-  color: #333;
-}
-
-#results p {
-  margin: 0.5rem 0;
-}
+#results p { margin: 0.5rem 0; }
+#results strong { font-size: 1.2rem; color: #333; }
 
 .error {
-  color: #b00020;
-  margin-top: 0.25rem;
   min-height: 0;
+  margin-top: 0.25rem;
+  color: #b00020;
 }
 
 @media (max-width: 480px) {
-  main {
-    padding: 1rem;
-  }
+  main { padding: 1rem; }
 }
 
+/* Respect user motion prefs */
 @media (prefers-reduced-motion: reduce) {
-  * {
-    transition: none !important;
-  }
+  * { transition: none !important; }
 }
 
+/* Auto theme (OS) */
 @media (prefers-color-scheme: dark) {
   body { background: #111; color: #eee; }
-  main { background: #1b1b1b; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); }
+  main { background: #1b1b1b; box-shadow: 0 4px 12px rgba(0,0,0,0.6); }
   input { background: #2a2a2a; color: #eee; border-color: #444; }
   button[type="submit"] { background: #0a84ff; }
   button[type="submit"]:hover { background: #0469cc; }
   #results { background: #222; border-top-color: #444; }
   #results strong { color: #fafafa; }
+  .theme-toggle { background: #fff; color: #111; border-color: #ddd; }
 }
+
+/* Manual theme overrides (JS toggles body class) */
+body.theme-dark { background: #111; color: #eee; }
+body.theme-dark main { background: #1b1b1b; box-shadow: 0 4px 12px rgba(0,0,0,0.6); }
+body.theme-dark input { background: #2a2a2a; color: #eee; border-color: #444; }
+body.theme-dark button[type="submit"] { background: #0a84ff; }
+body.theme-dark button[type="submit"]:hover { background: #0469cc; }
+body.theme-dark #results { background: #222; border-top-color: #444; }
+body.theme-dark #results strong { color: #fafafa; }
+
+body.theme-light { background: #fff; color: #111; }
+body.theme-light main { background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+body.theme-light input { background: #fff; color: #111; border-color: #ccc; }
+body.theme-light button[type="submit"] { background: #007bff; }
+body.theme-light button[type="submit"]:hover { background: #0056b3; }
+body.theme-light #results { background: #f7f7f7; border-top-color: #e6e6e6; }
+body.theme-light #results strong { color: #333; }
