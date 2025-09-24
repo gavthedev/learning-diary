@@ -6,7 +6,7 @@ Vanilla **HTML/CSS/JS** with Swiss currency formatting (**CHF**, `de-CH`).
 ---
 
 ## 🚀 Live Demo  
-[https://tip-calculator-srof.onrender.com](https://tip-calculator-1gsj.onrender.com)
+[(https://tip-calculator-1gsj.onrender.com)](https://tip-calculator-1gsj.onrender.com)
 
 ---
 
@@ -118,4 +118,5 @@ tip-calc/
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
 
