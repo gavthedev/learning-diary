@@ -1,4 +1,3 @@
-// app.js
 const chf = new Intl.NumberFormat("de-CH", { style: "currency", currency: "CHF" });
 
 const form = document.getElementById("tip-form");
@@ -224,3 +223,4 @@ liveCompute();
   el.addEventListener("focus", (e) => e.target.select());
   el.addEventListener("mouseup", (e) => e.preventDefault());
 });
+
