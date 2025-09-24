@@ -1,4 +1,4 @@
-# 🧮 Tip Calculator
+# 🧮 Tip Calculator (Enhanced)
 
 Bill split with custom tip, **live updates**, and **dark/light theme**.  
 Vanilla **HTML/CSS/JS** with Swiss currency formatting (**CHF**, `de-CH`).
@@ -118,3 +118,4 @@ tip-calc/
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
