@@ -1,6 +1,0 @@
-- Kata: Fake Binary. Tomorrow: 1x 7 - 8 kyu + 15m ES6 review
-- Katas: Reverse Words + Accum. Tutorials: Mosh JS — Objects (1h20m). Tomorrow: more 7–8 kyu + ES6
-- Katas: 7 kyu Get the Middle Character; 8 kyu Is he gonna survive?; If you can't sleep, just count sheep!!; Remove First and Last Character (Part Two); Remove String Spaces. Tomorrow: 1x 7–8 kyu + 15m ES6
-- Research: Set.has for 7 kyu Isograms kata; work day, no time for coding. Tomorrow: finish Isograms
-- Solved kata: Isograms
-- No coding/study today — late start & work shift. Tomorrow: more 7–8 kyu + ES6
