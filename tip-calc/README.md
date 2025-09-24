@@ -6,7 +6,7 @@ Vanilla **HTML/CSS/JS** with Swiss currency formatting (**CHF**, `de-CH`).
 ---
 
 ## 🚀 Live Demo  
-[https://tip-calculator-srof.onrender.com](https://tip-calculator-1gsj.onrender.com)]
+[https://tip-calculator-srof.onrender.com](https://tip-calculator-1gsj.onrender.com)
 
 ---
 
@@ -31,7 +31,7 @@ Vanilla **HTML/CSS/JS** with Swiss currency formatting (**CHF**, `de-CH`).
 ---
 
 ## ⚙️ How it works
-- Parsing via `valueAsNumber`; fallback: replace **`,` → `.`** before `Number(...)`.
+- Parsing via `valueAsNumber`; fallback: replace **`,` -> `.`** before `Number(...)`.
 - Formatting with:
   ```js
   new Intl.NumberFormat('de-CH', { style: 'currency', currency: 'CHF' });
@@ -78,7 +78,7 @@ tip-calc/
 ---
 
 ## ⚠️ Known limitations / Next steps
-- No **rappen rounding** yet → minor float artifacts possible.
+- No **rappen rounding** yet -> minor float artifacts possible.
 - Future: cent-based math, unit tests (Vitest), CI (ESLint/Prettier).
 - Optional: replace emoji toggle with **SVG icon** for consistent coloring.
 
