@@ -44,6 +44,10 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
+.input--error {
+  border-color: #b00020;
+}
+
 button[type="submit"] {
   background: #007bff;
   color: #fff;
@@ -108,4 +112,14 @@ button[type="submit"]:hover {
   * {
     transition: none !important;
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  body { background: #111; color: #eee; }
+  main { background: #1b1b1b; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); }
+  input { background: #2a2a2a; color: #eee; border-color: #444; }
+  button[type="submit"] { background: #0a84ff; }
+  button[type="submit"]:hover { background: #0469cc; }
+  #results { background: #222; border-top-color: #444; }
+  #results strong { color: #fafafa; }
 }
