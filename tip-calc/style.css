@@ -119,12 +119,10 @@ button[type="submit"]:hover { background: #0056b3; }
   main { padding: 1rem; }
 }
 
-/* Respect user motion prefs */
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
 
-/* Auto theme (OS) */
 @media (prefers-color-scheme: dark) {
   body { background: #111; color: #eee; }
   main { background: #1b1b1b; box-shadow: 0 4px 12px rgba(0,0,0,0.6); }
@@ -136,7 +134,6 @@ button[type="submit"]:hover { background: #0056b3; }
   .theme-toggle { background: #fff; color: #111; border-color: #ddd; }
 }
 
-/* Manual theme overrides (JS toggles body class) */
 body.theme-dark { background: #111; color: #eee; }
 body.theme-dark main { background: #1b1b1b; box-shadow: 0 4px 12px rgba(0,0,0,0.6); }
 body.theme-dark input { background: #2a2a2a; color: #eee; border-color: #444; }
@@ -152,3 +149,4 @@ body.theme-light button[type="submit"] { background: #007bff; }
 body.theme-light button[type="submit"]:hover { background: #0056b3; }
 body.theme-light #results { background: #f7f7f7; border-top-color: #e6e6e6; }
 body.theme-light #results strong { color: #333; }
+
