@@ -1,63 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tip Calculator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <h1>Tip Calculator</h1>
-      <form id="tip-form">
-        <label for="bill">Bill Amount</label>
-        <input
-          type="number"
-          inputmode="numeric"
-          id="bill"
-          min="0"
-          step="0.01"
-          required
-          aria-describedby="formError"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Tip Calculator</h1>
 
-        <label for="rate">Tip %</label>
-        <input
-          type="number"
-          inputmode="numeric"
-          id="rate"
-          min="0"
-          max="100"
-          step="1"
-          value="15"
-          aria-describedby="formError"
-        />
+    <button
+      id="themeToggle"
+      type="button"
+      aria-pressed="false"
+      class="theme-toggle"
+      title="Toggle dark mode"
+      aria-label="Toggle dark mode"
+    >
+      🌓
+    </button>
 
-        <label for="people">Number of People</label>
-        <input
-          type="number"
-          inputmode="numeric"
-          id="people"
-          min="1"
-          step="1"
-          value="1"
-          aria-describedby="formError"
-        />
+    <form id="tip-form" novalidate>
+      <label for="bill">Bill Amount</label>
+      <input
+        id="bill"
+        type="number"
+        inputmode="decimal"
+        min="0"
+        step="0.01"
+        required
+        autocomplete="off"
+        aria-describedby="formError"
+      />
 
-        <button type="submit">Calculate</button>
-        <p id="formError" class="error" aria-live="polite" role="status"></p>
-      </form>
+      <label for="rate">Tip %</label>
+      <input
+        id="rate"
+        type="number"
+        inputmode="numeric"
+        min="0"
+        max="100"
+        step="1"
+        value="15"
+        autocomplete="off"
+        aria-describedby="formError"
+      />
 
-      <section id="results" aria-live="polite" aria-atomic="true">
-        <p>Total (bill + tip): <strong id="total">--</strong></p>
-        <p>Tip only: <strong id="tip">--</strong></p>
-        <p id="perPersonRow">Tip per person: <strong id="perPerson">--</strong></p>
-        <p id="totalPerPersonRow">Total per person: <strong id="totalPerPerson">--</strong></p>
-      </section>
-    </main>
+      <label for="people">Number of People</label>
+      <input
+        id="people"
+        type="number"
+        inputmode="numeric"
+        min="1"
+        step="1"
+        value="1"
+        required
+        autocomplete="off"
+        aria-describedby="formError"
+      />
 
-    <!-- Αν το αρχείο λέγεται main.js, βάλε το παρακάτω -->
-    <!-- <script src="main.js"></script> -->
-    <script src="app.js"></script>
-  </body>
+      <button type="submit">Calculate</button>
+      <p id="formError" class="error" aria-live="polite" role="status"></p>
+    </form>
+
+    <section id="results" aria-live="polite" aria-atomic="true" hidden>
+      <p>Total (bill + tip): <strong id="total">--</strong></p>
+      <p>Tip only: <strong id="tip">--</strong></p>
+      <p id="perPersonRow">Tip per person: <strong id="perPerson">--</strong></p>
+      <p id="totalPerPersonRow">Total per person: <strong id="totalPerPerson">--</strong></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
 </html>
