@@ -8,3 +8,4 @@
 Solved 6 kyu 'Counting Duplicates'
 TipCalc v2 complete (JS + CSS full version)
 Next step possible deploy
+New: solved 6kyu kata 'Tribonacci Sequence'
