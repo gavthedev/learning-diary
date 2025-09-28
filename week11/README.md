@@ -11,3 +11,4 @@ Next step possible deploy
 New: solved 6kyu kata 'Tribonacci Sequence'
 New: Solved 6kuy kata 'Sum of Digits / Digital Root
 new: solved 6kyu kata 'Multiples of 3 or 5'
+New: Solved a 6 kyu kata Unique In Order and a 5kyu kata Simple Pig Latin
