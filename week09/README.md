@@ -1,4 +1,11 @@
 # Week 09 – Bootcamp Prep
-- Kickoff week: kata, JS logic, TipCalc core function
-- Solved Codewars 6kyu: Duplicate Encoder
-- Practiced string manipulation,  +  + mapping with conditional logic
+
+## Highlights
+- Kickoff week: katas, JS logic, TipCalc core function  
+- Practiced string manipulation, mapping, and conditional logic  
+
+## Progress
+- **Solved 6kyu kata:** *Duplicate Encoder*  
+- **Solved 6kyu kata:** *Find the Parity Outlier*  
+- **Solved 6kyu katas:** *Array.diff* and *Who Likes It?*  
+- **Solved 6kyu kata:** *Persistent Bugger*
