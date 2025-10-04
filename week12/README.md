@@ -9,4 +9,6 @@ Note: Revisited Git (clone, commit, push), configured VS Code (Prettier + Live S
 - Objects
 - Functions
 - Methods
-Note: Prework day 4 - Completed theory section: \nModifying DOM elements\nEvents & event listeners\n
+Note: Prework day 4 - Completed theory section:
+- Modifying DOM elements
+- Events & event listeners
