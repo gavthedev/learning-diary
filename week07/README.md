@@ -15,7 +15,7 @@ UI fixes, logic rewrite using pure functions, and deployment polish.
 ---
 
 ## Progress
-- **Deployed TipCalc** via Render – static site with working HTML + base JS  
+- **Deployed TipCalc** via Render - static site with working HTML + base JS  
 - **Added README.md** with live link section and features list  
 - **Scaffolded `app.js` logic** for manual rewrite  
 - **WIP:** Screenshot capture + UI styling for TipCalc  
@@ -23,8 +23,8 @@ UI fixes, logic rewrite using pure functions, and deployment polish.
 ---
 
 ## Achievements
-- Rewrote **core logic** in `app.js`: input validation, clean UI updates — now fully functional  
-- **Solved 7kyu kata:** *Disemvowel Trolls* – practiced string manipulation with `.replace()` and RegEx  
+- Rewrote **core logic** in `app.js`: input validation, clean UI updates - now fully functional  
+- **Solved 7kyu kata:** *Disemvowel Trolls* - practiced string manipulation with `.replace()` and RegEx  
 - **Solved 7kyu kata:** *Shortest Word* – split words, mapped lengths, found minimum using `Math.min(...arr)`  
 - Reviewed **CSS layout** concepts: Flexbox, `justify-content`, `align-items`, `gap`  
 - Planned **form row structure** for TipCalc  
