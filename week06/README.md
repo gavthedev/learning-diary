@@ -1,26 +1,24 @@
-Week 06 - Kata Loops & Logic Cleanups
+# Week 06 - Kata Loops & Logic Cleanups
 
-## Goals:
+## Goals
+- Clean 7kyu kata logic  
+- Retest *SeriesSum* + *Descending Order*  
+- Continue TipCalc Level 2
 
-- Clean 7kyu kata logic
+---
 
-- Retest SeriesSum + Descending Order
+## Progress
+- **New:** Solved *getSum* kata  
+  - v1 > loop-based  
+  - v2 > math trick (arithmetic series)  
+- **Redo:** *SeriesSum* (7kyu) - retested logic and improved fractional loop  
+- **New:** *Descending Order* (7kyu) - implemented custom max + splice sorting loop  
+- **New:** *Highest and Lowest* (7kyu) - parsed string numbers and used `Math.max()` / `Math.min()`  
+- **Note:** Deep dive into `split().map(Number)` - memory behavior, array creation, stack vs. heap explained  
+- **Note:** No coding today - check-in only to maintain streak  
 
-- Continue TipCalc L2
+---
 
-
-
-New: Solved getSum kata - v1 (loop), v2 (math trick)
-
-Note: No coding today, just a check-in to stay consistent
-
-Redo: SeriesSum kata (7kyu) - retested logic, nailed it again
-
-Redo: SeriesSum kata (7kyu) - retested logic with clean fractional loop
-
-New: Descending Order (7kyu) - built custom max+splice sorting loop
-
-New: Highest and Lowest (7kyu) - parsed string nums and used Math.max/min
-
-Note: Deep dive into split().map(Number) — memory, array creation, stack/heap explained
-Plan: Solve 1x kata (7–8kyu) + start planning TipCalc validation module
+## Next Focus
+- Solve 1× kata (7-8kyu)  
+- Begin planning **TipCalc validation module**
