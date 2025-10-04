@@ -1,4 +1,5 @@
 # Week 12
+<<<<<<< HEAD
 
 ### Plan
 Constructor prework – Day 1 setup, Git review, CLI basics
