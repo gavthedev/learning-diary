@@ -1,1 +1,1 @@
-# Week 13 - JS OOP, Events, Python beginning
+# Week 13 – JS OOP, Events, Python beginning
