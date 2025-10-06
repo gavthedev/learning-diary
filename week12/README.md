@@ -22,4 +22,3 @@ Constructor prework – Day 1 setup, Git review, CLI basics
 **Prework Day 4 – Completed theory sections**
 - Modifying DOM elements  
 - Events & Event Listeners
-- 
