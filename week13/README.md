@@ -5,3 +5,8 @@ string ops, loops, conditionals
 simple algorithms and data checks
 array manipulation, math logic
 applied clean function syntax + edge case handling
+Feat: Practiced OOP with class-based problem solving
+- Created object models with internal state and behavior
+- Encapsulated functionality using constructors and methods
+- Simulated stateful systems
+- Reinforced 'this', object property access, and control flow
