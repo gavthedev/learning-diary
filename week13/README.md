@@ -10,3 +10,8 @@ Feat: Practiced OOP with class-based problem solving
 - Encapsulated functionality using constructors and methods
 - Simulated stateful systems
 - Reinforced 'this', object property access, and control flow
+Feat: Practiced DOM scripting through calculator UI
+ created input-based interface with live result rendering
+ selected DOM elements and used event listeners for click
+ handled input.value and number conversion for calculation
+ updated content dynamically via textContent
