@@ -15,3 +15,4 @@ Feat: Practiced DOM scripting through calculator UI
  selected DOM elements and used event listeners for click
  handled input.value and number conversion for calculation
  updated content dynamically via textContent
+- Watched Mosh Python videos: Getting Started (all), Python Basics up to 'Numbers'
