@@ -16,3 +16,4 @@ Feat: Practiced DOM scripting through calculator UI
  handled input.value and number conversion for calculation
  updated content dynamically via textContent
 - Watched Mosh Python videos: Getting Started (all), Python Basics up to 'Numbers'
+- Watched Mosh JS: Arithmetic, Type Conversion, Conditionals, Logical & Ternary Operators, For Loops
