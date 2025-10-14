@@ -5,3 +5,6 @@
 - Solve 2 Codewars katas (min 6 kyu)
 - Commit once per day (even small progress)
 - Continue Mosh Python videos
+New: solved Python prework tasks 5–15 with partial help
+
+Note: prioritized deadline over depth, will revisit later if needed
