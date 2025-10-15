@@ -8,3 +8,7 @@
 New: solved Python prework tasks 5–15 with partial help
 
 Note: prioritized deadline over depth, will revisit later if needed
+WIP: completed bootcamp exercise (HTML/CSS styling)
+
+- followed section layout instructions
+- kept changes modular and structured
