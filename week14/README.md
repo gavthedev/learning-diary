@@ -12,3 +12,4 @@ WIP: completed bootcamp exercise (HTML/CSS styling)
 
 - followed section layout instructions
 - kept changes modular and structured
+Note: Finished all Constructor prework (exercises, theory).
