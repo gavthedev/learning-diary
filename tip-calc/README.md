@@ -35,6 +35,7 @@ Built with HTML, CSS and vanilla JavaScript.
 
 ## 📂 Folder Structure
 
+```text
 tip-calc/
 ├── index.html
 ├── style.css
@@ -43,12 +44,14 @@ tip-calc/
 └── image.png
 
 
+
 ---
 
 ## 🧠 Lessons Learned
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
 
 
 
