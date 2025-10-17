@@ -42,7 +42,7 @@ tip-calc/
 ├── app.js
 ├── README.md
 └── image.png
-
+```
 
 
 ---
@@ -51,6 +51,7 @@ tip-calc/
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
 
 
 
