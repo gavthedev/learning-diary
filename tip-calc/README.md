@@ -35,7 +35,13 @@ Built with HTML, CSS and vanilla JavaScript.
 
 ## 📂 Folder Structure
 
-<pre lang="text"><code>```text tip-calc/ ├── index.html ├── style.css ├── app.js ├── README.md └── image.png ```</code></pre>
+tip-calc/
+├── index.html
+├── style.css
+├── app.js
+├── README.md
+└── image.png
+
 
 ---
 
@@ -43,6 +49,7 @@ Built with HTML, CSS and vanilla JavaScript.
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
 
 
 
