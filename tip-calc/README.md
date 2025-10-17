@@ -27,20 +27,15 @@ Built with HTML, CSS and vanilla JavaScript.
 ---
 
 ## 🛠️ Tech Stack
-- HTML5 (Semantic)
-- CSS3 (Flexbox)
-- JavaScript (ES6)
+- HTML (semantic structure)
+- CSS (Flexbox + media queries)
+- Vanilla JS (ES6 modules, DOM API)
 
 ---
 
 ## 📂 Folder Structure
 
-tip-calc/
-├── index.html
-├── style.css
-├── app.js
-├── README.md
-└── image.png
+<pre lang="text"><code>```text tip-calc/ ├── index.html ├── style.css ├── app.js ├── README.md └── image.png ```</code></pre>
 
 ---
 
@@ -48,6 +43,7 @@ tip-calc/
 - DOM manipulation with `querySelector` and `addEventListener`
 - Number input validation
 - Reusable functions and clean UI feedback
+
 
 
 
