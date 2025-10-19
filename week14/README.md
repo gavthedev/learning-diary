@@ -15,3 +15,4 @@ WIP: completed bootcamp exercise (HTML/CSS styling)
 - Note: Finished all Constructor prework (exercises, theory).
 - Solved 6 kyu kata 'The Supermarket Queue'
 - Solved 4kuy kata 'Sum Strings as Numbers'
+- Built a to-do app. Learning exercise.
