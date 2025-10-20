@@ -32,13 +32,13 @@ Built with HTML, CSS and vanilla JavaScript.
 
 ## 📂 Folder Structure
 
-\`\`\`text
+```text
 todo-app/
 ├── index.html
 ├── style.css
 ├── app.js
 └── README.md
-\`\`\`
+```
 
 ---
 
