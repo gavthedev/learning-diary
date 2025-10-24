@@ -11,4 +11,5 @@ New: Solved 9 8kuy katas:
 - Opposite Number
 
 Goal is to focus on Python warm up with math basics, string slicing, loops, conditionals before bootcamp starts.
+
 - New: solved 3 8kyu katas: Find Max and Min Values of a list, Calculate Average, Count of positives/Sum of negatives
