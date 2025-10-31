@@ -10,3 +10,8 @@ JS: Day 3 of Bootcamp and studied in depth  Arrays, Objects & Classes
 - Object iteration practice
 - Class inheritance
 - Theory review: JS fundamentals (variables, loops, functions)
+JS: Bootcamp Day 4 - Async code, event listeners & Canvas
+- Synchronous vs asynchronous behavior
+- DOM events and listeners practice
+- Intro to Canvas API and drawing
+- Pong game exercise implementation
