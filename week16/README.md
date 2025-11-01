@@ -15,3 +15,4 @@ JS: Bootcamp Day 4 - Async code, event listeners & Canvas
 - DOM events and listeners practice
 - Intro to Canvas API and drawing
 - Pong game exercise implementation
+JS: Bootcamp Day 6 - Rest day. No exercises. Time to reset and breathe.
