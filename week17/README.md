@@ -16,3 +16,7 @@ Bootcamp day 6 JS: SWAPI async tree rendering exercise
 - Nested DOM rendering on click
 - Used .then(), dynamic buttons, appendChild
 - Error handling on deep chained calls
+Bootcamp day 07 JS Hackathon day - team problem solving
+- Solved 5 exercises: custom iterator, recursive count, object merge, objectToArray, class method
+- Worked in a team of 4
+- Practiced collaboration, task distribution, review/testing
