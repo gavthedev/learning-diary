@@ -26,3 +26,9 @@ Bootcamp day 8: React Intro to JSX, props, state & events
 - Rendering lists with map()
 - useState and event handling
 - React Dance Floor exercise
+echo -e Bootcamp day 09 React: Hooks, Forms & Tooling
+- useState/useEffect basics
+- Rendering process in React
+- Controlled form inputs
+- React DevTools
+- Mini app: Contact Book (add new contact via form, display list)
