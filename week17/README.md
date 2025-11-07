@@ -32,3 +32,9 @@ echo -e Bootcamp day 09 React: Hooks, Forms & Tooling
 - Controlled form inputs
 - React DevTools
 - Mini app: Contact Book (add new contact via form, display list)
+Bootcamp day 10 React: Tailwind, Promises refresh, and Redux Toolkit intro
+- Utility-based styling with Tailwind
+- Recap: Promises + Fetch
+- React state limitations
+- Redux: store/slices/actions/reducers structure
+- Redux Toolkit with createSlice & configureStore
