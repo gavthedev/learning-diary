@@ -12,3 +12,10 @@ Bootcamp day 12 React: Router setup + Trivia App start
 - Trivia Game project planning & initial setup
 - Redux store prepared for question data
 - Partial implementation (question page WIP)
+
+Bootcamp day 13 React Auth: JWT + Redux + Protected Routing
+- Authentication theory (login, verify, logout)
+- JWT token flow in Redux store & localStorage
+- ProtectedRoutes component
+- Dynamic navigation + redirect logic
+- Online Shop exercise : login/register/cart route setup
