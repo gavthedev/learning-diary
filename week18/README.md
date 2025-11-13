@@ -19,3 +19,11 @@ Bootcamp day 13 React Auth: JWT + Redux + Protected Routing
 - ProtectedRoutes component
 - Dynamic navigation + redirect logic
 - Online Shop exercise : login/register/cart route setup
+
+Bootcamp day 14 React: Custom Hooks + useReducer/useRef + Shop Cart
+- Created reusable hooks (useFetch, useToggle)
+- Refactored API logic
+- useReducer for state handling
+- useRef for DOM/value persistence
+- Cart: add/change/remove item
+- Bonus: total in navbar
