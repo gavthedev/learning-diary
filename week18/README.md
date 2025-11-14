@@ -27,3 +27,9 @@ Bootcamp day 14 React: Custom Hooks + useReducer/useRef + Shop Cart
 - useRef for DOM/value persistence
 - Cart: add/change/remove item
 - Bonus: total in navbar
+
+Bootcamp day 15 Reviewed all week's lessons: Redux auth, router, trivia & shop setup
+- Redux login/logout/token verify logic
+- ProtectedRoutes structure & redirect
+- Trivia app page-based routing
+- Shop exercise prep (register/login/cart access)
