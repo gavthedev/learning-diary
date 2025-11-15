@@ -33,3 +33,7 @@ Bootcamp day 15 Reviewed all week's lessons: Redux auth, router, trivia & shop s
 - ProtectedRoutes structure & redirect
 - Trivia app page-based routing
 - Shop exercise prep (register/login/cart access)
+
+No study today (Saturday)
+- Rest day, no coding
+- Keeping commit streak alive
