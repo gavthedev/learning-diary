@@ -11,3 +11,8 @@ Bootcamp day 16 Team Project: Friends screen + API connection
 - useFetch hook integration (reusable request logic)
 - Random refresh with UUID key
 - Tested multiple fetch setups + improved layout
+
+Bootcamp day 18 Friendship Hook:
+- Created custom useFriendship() for managing friendship status and actions
+- Modularized buttons via FriendActions component
+- Refactored FriendCard to use hook logic + conditional rendering
