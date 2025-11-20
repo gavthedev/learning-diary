@@ -16,3 +16,7 @@ Bootcamp day 18 Friendship Hook:
 - Created custom useFriendship() for managing friendship status and actions
 - Modularized buttons via FriendActions component
 - Refactored FriendCard to use hook logic + conditional rendering
+
+Bootcamp day 19 Fixes & Refactors
+- Resolved merge conflicts
+- Refactored FriendCard + FriendActions + useFriendship
