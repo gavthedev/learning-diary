@@ -20,3 +20,8 @@ Bootcamp day 18 Friendship Hook:
 Bootcamp day 19 Fixes & Refactors
 - Resolved merge conflicts
 - Refactored FriendCard + FriendActions + useFriendship
+
+Bootcamp day 19 Final polish & presentation:
+- Finished UserDetailTile with conditional logic (isSelf, fetches)
+- UI layout cleanup
+- Project delivered
