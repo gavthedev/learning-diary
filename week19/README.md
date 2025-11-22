@@ -25,3 +25,8 @@ Bootcamp day 19 Final polish & presentation:
 - Finished UserDetailTile with conditional logic (isSelf, fetches)
 - UI layout cleanup
 - Project delivered
+
+No study today (Saturday)
+- Rest day, no coding
+- Keeping commit streak alive
+
