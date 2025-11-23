@@ -30,3 +30,7 @@ No study today (Saturday)
 - Rest day, no coding
 - Keeping commit streak alive
 
+- Read week 5 guidelines and previewed Day 1's Python content  
+- Compared Python vs JavaScript (ES6)  
+- Reviewed Python basics: syntax, variables, print, types  
+- Light reading to prepare for exercises tomorrow
