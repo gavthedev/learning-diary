@@ -7,3 +7,8 @@
 - Split_the_bill logic 
 - Recursions 
 - Starting off strong into Python with real practice and theory
+- Bootcamp day 21 , Python Advanced + OOP Exercises 
+Solved 6 Python challenges using map/filter/functions
+Exercises: Even Numbers, Square Elements, Squared Evens, Find Certain Numbers, compute_totals, Restaurant classes
+Wrote versions with explicit for-loops + functional style (lambda/map/filter)
+Practiced Class/Instance structure with Dish/Restaurant/Ingredients
