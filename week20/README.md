@@ -30,3 +30,15 @@ Bootcamp day 23 – Interview Prep: Algorithms
   • Merge sort (recursive with merge step)  
 - Optional reading: quicksort and binary search trees (insert, find, delete)  
 - Learned why these matter for interviews and not for daily dev work  
+Bootcamp day 24 - Interview Prep: Data Structures 
+- Reviewed closures, scoping rules and lexical environment
+- Practiced *args, **kwargs and flexible function signatures
+- Walrus operator := for inline assignments and clean logic
+- Solved DS theory questions (lists, sets, stack vs queue, recursion, comparisons)
+- Implemented closure factory function: create_base(x)
+- Built custom Stack class with push/pop/top/is_empty/clear
+- Built custom Queue class with enqueue/dequeue/first/is_empty/clear
+- Built custom Set class with insert/remove/has/all/length
+- Trained on interview patterns: deduplication, compression, missing chars
+- Practiced runtime reasoning & debugging without execution
+
