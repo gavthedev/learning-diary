@@ -42,3 +42,13 @@ Bootcamp day 24 - Interview Prep: Data Structures
 - Trained on interview patterns: deduplication, compression, missing chars
 - Practiced runtime reasoning & debugging without execution
 
+Bootcamp day 25 - Databases & SQL in Python 
+- Studied theory on relational databases 
+- Learned primary keys, foreign keys, relationships across tables
+- Worked with SQLite & DB Browser
+- Practiced SELECT with filtering, sorting, LIMIT/OFFSET, JOIN
+- Used SQL in Python (sqlite3), created DB file + tables 
+- Inserted dummy data and executed queries from Python scripts
+- Learned parameterized queries for SQL injection protection
+- Prepared structure for TODO CLI App (CRUD over SQLite)
+
