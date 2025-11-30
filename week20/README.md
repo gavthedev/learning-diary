@@ -61,3 +61,4 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 No coding today, rest day getting ready for an upcomming strong week!
+Sunday: did some warmup on next week's materials - Django
