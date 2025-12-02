@@ -10,3 +10,20 @@ Bootcamp day 26 - Django Setup + Recipe API Project
   • Built endpoints for CRUD (get all, get single, create, update, delete)
   • Used Postman to test all endpoints
 
+Bootcamp day 27 – Django REST Framework, JWT & Cookbook API
+- Studied DRF Request/Response lifecycle 
+- Understood GenericAPIView and ListAPIView pattern for reusability
+- Built Serializers (Model + nested + method fields), SerializerMethodField
+- Modeled relationships with ForeignKey, ManyToMany, OneToOne
+- Practiced ORM filtering with queryset overrides and Q objects
+- Explored admin customization 
+- Reviewed Auth types: Basic, Session, Token, JWT, cookies, signed requests
+- Installed and configured JWT via djangorestframework-simplejwt
+  • /api/token/, /refresh/, /verify/ working in Postman
+- Built full Cookbook/Recipe API:
+  • Related models: User, Recipe, Cookbook
+  • Endpoints for full CRUD + toggle favorite
+  • Used GenericAPIView, custom get_queryset(), JWT auth required
+  • Nested serializers for detailed responses
+ 
+
