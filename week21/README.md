@@ -27,3 +27,16 @@ Bootcamp day 27 - Django REST Framework, JWT & Cookbook API
   • Nested serializers for detailed responses
  
 
+Bootcamp day 28 - DRF Concrete View Classes, Permissions, Finalizing Cookbook API 
+- Used ListCreateAPIView & RetrieveUpdateDestroyAPIView for cleaner view logic
+- Applied permissions: IsAuthenticatedOrReadOnly, custom IsOwnerOrReadOnly
+- Built endpoints for:
+  • Full CRUD for Recipe + Cookbook
+
+- Implemented nested serializer fields 
+- Added search query support for title/description filtering 
+
+- Set permission classes per view to allow public read + private write
+- Used get_queryset() override for filtering and query param handling
+- Used lookup_field override for URLs 
+
