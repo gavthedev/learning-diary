@@ -40,3 +40,17 @@ Bootcamp day 28 - DRF Concrete View Classes, Permissions, Finalizing Cookbook AP
 - Used get_queryset() override for filtering and query param handling
 - Used lookup_field override for URLs 
 
+Bootcamp day 29 - DRF Advanced: Swagger, Filtering, Media Files 
+- Worked with Swagger UI with drf-yasg
+- Enforced permissions with IsAuthenticated + custom IsAuthorOrReadOnly
+  • Public read access, private write access for authors only
+- Used RetrieveUpdateDestroyAPIView + ListCreateAPIView for concrete endpoints
+- Added search param filtering (?search=...) on recipes + cookbooks
+- CookbookSerializer shows count of related recipes
+- Configured static/media file handling in development
+  • MEDIA_URL / MEDIA_ROOT setup
+ 
+- Defined upload_to function for per-user file structuring
+- Practiced DRF ORM filters: Q objects, F() expressions, reverse lookups
+- Added Swagger doc protection (login required for protected endpoints)
+
