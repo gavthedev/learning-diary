@@ -61,3 +61,4 @@ Bootcamp day 29 - DRF Advanced: Swagger, Filtering, Media Files
   • Added custom user model (AbstractUser)
   • Base URL structure: /backend/api/
   • Ready to implement post/follow endpointσ
+No coding today, rest day getting ready for an upcomming challening week!
