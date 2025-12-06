@@ -51,14 +51,6 @@ Bootcamp day 25 - Databases & SQL in Python
 - Inserted dummy data and executed queries from Python scripts
 - Learned parameterized queries for SQL injection protection
 - Prepared structure for TODO CLI App (CRUD over SQLite)
-
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	../week17/README.md~
-
-nothing added to commit but untracked files present (use "git add" to track)
-No coding today, rest day getting ready for an upcomming strong week!
-Sunday: did some warmup on next week's materials - Django
+  
+\nNo coding today, rest day getting ready for an upcomming strong week!
+\nSunday: did some warmup on next week's materials - Django
