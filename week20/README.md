@@ -52,5 +52,5 @@ Bootcamp day 25 - Databases & SQL in Python
 - Learned parameterized queries for SQL injection protection
 - Prepared structure for TODO CLI App (CRUD over SQLite)
   
-\nNo coding today, rest day getting ready for an upcomming strong week!
-\nSunday: did some warmup on next week's materials - Django
+ No coding today, rest day getting ready for an upcomming strong week!
+ Sunday: did some warmup on next week's materials - Django
