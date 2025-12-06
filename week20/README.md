@@ -53,4 +53,5 @@ Bootcamp day 25 - Databases & SQL in Python
 - Prepared structure for TODO CLI App (CRUD over SQLite)
   
  No coding today, rest day getting ready for an upcomming strong week!
- Sunday: did some warmup on next week's materials - Django
+ 
+  Sunday: did some warmup on next week's materials - Django
