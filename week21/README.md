@@ -62,3 +62,8 @@ Bootcamp day 29 - DRF Advanced: Swagger, Filtering, Media Files
   • Base URL structure: /backend/api/
   • Ready to implement post/follow endpointσ
 No coding today, rest day getting ready for an upcomming challening week!
+- Sunday - Previewed Week 7 topics to prepare:
+  • Django Assignment Part II
+  • Docker basics, GitLab CI/CD
+  • Motion backend deployment plans
+
