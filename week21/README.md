@@ -54,7 +54,7 @@ Bootcamp day 29 - DRF Advanced: Swagger, Filtering, Media Files
 - Practiced DRF ORM filters: Q objects, F() expressions, reverse lookups
 - Added Swagger doc protection (login required for protected endpoints)
 
-- Bootcamp day 25: Motion backend setup
+- Bootcamp day 30: Motion backend setup
   • Initialized Motion backend project with DRF
   • Created social app and registered in settings
   • Setup JWT authentication (simplejwt)
