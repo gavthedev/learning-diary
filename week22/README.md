@@ -14,6 +14,7 @@ Bootcamp day 32 - GitLab CI/CD & Deployment on DigitalOcean
 - Setup DigitalOcean droplet (Ubuntu 24.04, firewall config, non-root user, Docker, GitLab runner)
 - Understood GitLab pipeline with build/lint/push/deploy stages via `.gitlab-ci.yml`
 - Registered GitLab runner, configured shell executor, automated Docker deployment
+
 Bootcamp day 33 - Advanced Docker & CI/CD 
 
 - Studied full CI/CD setup with GitLab pipelines (build > lint > push > deploy > cleanup) 
