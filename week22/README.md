@@ -24,9 +24,14 @@ Bootcamp day 33 - Advanced Docker & CI/CD
 - Setup Gunicorn as WSGI server, linked to Django app in Docker
 - Reviewed Let's Encrypt + certbot + SSL cert renewal with crontab
 - Covered secure environment variable management via GitLab CI/CD secrets
+
 Bootcamp day 34 - Motion Backend Progress
 
 - Continued work on the Motion social platform backend
 - Resolved leftover tasks and fixed previous implementation bugs
 - Cleaned up models, views, and serializers from earlier days
 - Verified endpoints with Swagger and tested API responses
+
+
+Bootcamp day 35 - Motion Backend Progress
+- Continued work on the Motion social platform backend
