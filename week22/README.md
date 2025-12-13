@@ -30,3 +30,4 @@ Bootcamp day 34 - Motion Backend Progress
 - Resolved leftover tasks and fixed previous implementation bugs
 - Cleaned up models, views, and serializers from earlier days
 - Verified endpoints with Swagger and tested API responses
+No coding today, rest day getting ready for next week
