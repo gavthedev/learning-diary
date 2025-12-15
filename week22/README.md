@@ -32,6 +32,8 @@ Bootcamp day 34 - Motion Backend Progress
 - Cleaned up models, views, and serializers from earlier days
 - Verified endpoints with Swagger and tested API responses
 
-
 Bootcamp day 35 - Motion Backend Progress
 - Continued work on the Motion social platform backend
+
+Saturday
+- No coding today, rest day getting ready for next week
