@@ -10,3 +10,11 @@ Today we:
 - Prepared  + email SMTP structure for later
 
 Next steps: user registration, first endpoints, permissions, db models.
+Bootcamp day 37 - Motion Project: Post Endpoint 
+
+- Continued work on group project (Motion)
+- Completed clean implementation of Post model - domain-focused  
+- Setup serializers with likes_count, safe shared_post, and nested author info
+- Created views: list/create, retrieve/update/destroy, like/unlike
+- Applied clean permission structure (IsAuthor, IsAdminOrSafeMethod)
+- Prepared ToggleLikeView
