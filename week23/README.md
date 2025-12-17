@@ -8,8 +8,8 @@ Today we:
 - Connected to DigitalOcean droplet
 - Verified Dockerized Django app is running
 - Prepared  + email SMTP structure for later
+- Next steps: user registration, first endpoints, permissions, db models.
 
-Next steps: user registration, first endpoints, permissions, db models.
 Bootcamp day 37 - Motion Project: Post Endpoint 
 
 - Continued work on group project (Motion)
