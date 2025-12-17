@@ -18,3 +18,13 @@ Bootcamp day 37 - Motion Project: Post Endpoint
 - Created views: list/create, retrieve/update/destroy, like/unlike
 - Applied clean permission structure (IsAuthor, IsAdminOrSafeMethod)
 - Prepared ToggleLikeView
+
+Bootcamp day 38 - Continued development of the project   
+- Successfully tested all implemented endpoints  
+- Added new features:  
+  - Search posts endpoint  
+  - Get posts by specific user  
+  - Get posts by followed users  
+  - Get posts by friends  
+  - Get posts I’ve liked  
+  - Share post behavior
