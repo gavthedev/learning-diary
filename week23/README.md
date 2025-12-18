@@ -28,3 +28,12 @@ Bootcamp day 38 - Continued development of the project
   - Get posts by friends  
   - Get posts I’ve liked  
   - Share post behavior
+
+Bootcamp day 39 - Motion backend: user social features   
+- Continued working on Motion project with the team  
+- Implemented and tested user-related social endpoints:  
+  - Toggle follow/unfollow user  
+  - View followers and following lists  
+  - Send, accept, reject, delete friend requests  
+  - View list of accepted friends  
+  - List all users, search users, get user profile
