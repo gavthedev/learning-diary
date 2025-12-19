@@ -37,3 +37,8 @@ Bootcamp day 39 - Motion backend: user social features
   - Send, accept, reject, delete friend requests  
   - View list of accepted friends  
   - List all users, search users, get user profile
+Bootcamp day 40 - Motion backend finalization & presentation
+- Completed Motion backend project with the team
+- Finalized and deployed app on DigitalOcean droplet
+- All required endpoints implemented, tested and working
+- Prepared short team presentation and showcased functionality
