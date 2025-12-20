@@ -42,3 +42,6 @@ Bootcamp day 40 - Motion backend finalization & presentation
 - Finalized and deployed app on DigitalOcean droplet
 - All required endpoints implemented, tested and working
 - Prepared short team presentation and showcased functionality
+Saturday
+
+No coding today, rest day getting ready for next week
