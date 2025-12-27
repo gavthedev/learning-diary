@@ -6,3 +6,4 @@ Added custom User model early (email login) and wired JWT auth endpoints.
 Split settings into base/dev/prod and added Swagger docs (drf-yasg).
 Set up docker-compose for dev/ci/deploy and ran initial migrations.
 Studied backend session, deep dive into theory
+Work day today, no studying. Will deep dive into project's finalization tomorrow
