@@ -12,3 +12,6 @@
 - Extended main entity with structured fields ( relations, constraints, metadata). 
 - Reviewed standard fields used in Swiss platforms. 
 - Focus on scalability and filtering readiness (choices, booleans, normalized links).
+- Studied 3-server GitLab CI/CD pipeline setup 
+- Studied the role of NGINX, Gunicorn, WSGI, and CI/CD docker flows 
+- More confident setting up multistage deploy flow w/ GitLab runners
