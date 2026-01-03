@@ -15,3 +15,7 @@
 - Studied 3-server GitLab CI/CD pipeline setup 
 - Studied the role of NGINX, Gunicorn, WSGI, and CI/CD docker flows 
 - More confident setting up multistage deploy flow w/ GitLab runners
+- Reworked models with fully detailed attributes 
+- Splitted logics 
+- Added enums 
+- Ready for DRF / admin interface expansion
