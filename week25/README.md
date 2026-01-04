@@ -19,3 +19,4 @@
 - Splitted logics 
 - Added enums 
 - Ready for DRF / admin interface expansion
+Sunday hard work today, no coding but the spirit is alive
