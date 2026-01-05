@@ -1,0 +1,8 @@
+- Bootcamp day 41 - AI Theory & ML Fundamentals 
+- Studied AI types: Narrow vs General, Rule-based vs Learning-based, Reactive vs Memory-based
+- Learned ML data requirements: quality, balance, labels, generalization issues
+- Reviewed core ML algorithms: Linear Regression, SVM, k-NN, Decision Trees, Random Forest, Naive Bayes
+- Explored Deep Learning with neural nets: ANN, CNN, RNN, Transformers
+- Studied generative models (GANs, VAEs, Diffusion) and use cases 
+- Understood LLMs: pretraining, fine-tuning, tokenization strategies 
+- Examined model limits: token context, pricing, real-world examples
