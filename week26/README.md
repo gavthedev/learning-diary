@@ -14,3 +14,10 @@
 - Created basic OpenAI chat client and image generator using DALL·E 2
 - Learned structured response output with JSON schema, used  param
 - Practiced downloading and saving generated image from API URL
+
+Bootcamp day43
+- Worked on domain modeling for a real-estate style platform 
+- Clarified separation between what exists and what user wants
+- Designed models with Swiss-market constraints
+- Started DRF serializers and reviewed read vs write concerns
+- Focused on clean architecture decisions before implementation
