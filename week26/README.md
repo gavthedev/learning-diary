@@ -21,3 +21,10 @@ Bootcamp day43
 - Designed models with Swiss-market constraints
 - Started DRF serializers and reviewed read vs write concerns
 - Focused on clean architecture decisions before implementation
+Bootcamp day44 - Relational database modeling & domain exploration 
+
+- Practiced relational database design for a real-estate 
+- Modeled core entities (locations, properties, renters, search criteria) 
+- Focused on translating domain concepts into relational schemas
+
+Next: align database concepts with Django models & API layer
