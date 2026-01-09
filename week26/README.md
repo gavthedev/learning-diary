@@ -28,3 +28,10 @@ Bootcamp day44 - Relational database modeling & domain exploration
 - Focused on translating domain concepts into relational schemas
 
 Next: align database concepts with Django models & API layer
+
+Bootcamp day 45 - 
+- Practiced nested JSON response structure and clarified all ID references for frontend use.
+- Did deep research on backend image handling methods.
+- Wrote full API route/methods doc.
+- Clarified JWT /tokens/ behavior.
+- Synced with frontend team: defined required endpoints and serializers needed per feature.
