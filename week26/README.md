@@ -35,3 +35,5 @@ Bootcamp day 45 -
 - Wrote full API route/methods doc.
 - Clarified JWT /tokens/ behavior.
 - Synced with frontend team: defined required endpoints and serializers needed per feature.
+
+ Workday, no coding today
