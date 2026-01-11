@@ -37,3 +37,4 @@ Bootcamp day 45 -
 - Synced with frontend team: defined required endpoints and serializers needed per feature.
 
  Workday, no coding today
+No coding today also, workday and rest for next week. Big project coming
