@@ -1,1 +1,1 @@
-# learning-diary
+- Created advanced Django model Property with real-world domain logic
