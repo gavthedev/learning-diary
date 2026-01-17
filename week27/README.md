@@ -14,3 +14,4 @@ Modeled SwapProcess with status flow
 - Wired serializers to views and URLs 
 - Added perform_create logic for Message creation
 - Fixed Docker dev script issues
+Saturday, no coding today, its a rest day
