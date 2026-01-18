@@ -15,3 +15,7 @@ Modeled SwapProcess with status flow
 - Added perform_create logic for Message creation
 - Fixed Docker dev script issues
 Saturday, no coding today, its a rest day
+
+ API endpoint audit done
+- Defined clear roles
+- Patch accepts only status updates
