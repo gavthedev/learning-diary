@@ -1,0 +1,6 @@
+- Added core logic for property-to-renter amenity matching system 
+- Introduced simple Amenity model 
+- Connected Property.amenities and RenterProfile.preferred_amenities via M2M 
+- Designed scoring system: +1 point for each matched amenity 
+- Decided to avoid complex flags or tri-state preferences 
+- Prepared model structure to enable future filtering/matching logic
