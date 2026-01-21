@@ -4,3 +4,9 @@
 - Designed scoring system: +1 point for each matched amenity 
 - Decided to avoid complex flags or tri-state preferences 
 - Prepared model structure to enable future filtering/matching logic
+Added property match scoring system with REST API:
+  - match calculation (utils)
+  - match serializer (read-only fields)
+  - match views (list + detail)
+  - scoring based on preferences (rent, sqm, rooms, etc)
+  - URLs integrated into property app
