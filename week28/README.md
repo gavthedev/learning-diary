@@ -10,3 +10,6 @@ Added property match scoring system with REST API:
   - match views (list + detail)
   - scoring based on preferences (rent, sqm, rooms, etc)
   - URLs integrated into property app
+- Created cover_img field in PropertyListSerializer
+- Fixed AttributeError caused by wrong Image model fields 
+- Confirmed properties with images now return correct URL
