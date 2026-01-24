@@ -13,3 +13,4 @@ Added property match scoring system with REST API:
 - Created cover_img field in PropertyListSerializer
 - Fixed AttributeError caused by wrong Image model fields 
 - Confirmed properties with images now return correct URL
+- Backend housekeeping & config work
