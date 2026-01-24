@@ -4,6 +4,7 @@
 - Designed scoring system: +1 point for each matched amenity 
 - Decided to avoid complex flags or tri-state preferences 
 - Prepared model structure to enable future filtering/matching logic
+
 Added property match scoring system with REST API:
   - match calculation (utils)
   - match serializer (read-only fields)
@@ -13,4 +14,11 @@ Added property match scoring system with REST API:
 - Created cover_img field in PropertyListSerializer
 - Fixed AttributeError caused by wrong Image model fields 
 - Confirmed properties with images now return correct URL
+
+- Matching logic: cleaned, linted, serializer updated
+- Thumbnail logic: added to property card, verified end-to-end
+- Swagger issues opened and endpoints clarified
+- Email logic issue drafted, backend thread ready
+- 3 merge requests opened, 3 accepted, 20+ commits pushed
+
 - Backend housekeeping & config work
