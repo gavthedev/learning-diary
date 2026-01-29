@@ -15,3 +15,10 @@ PDF generation triggers after swap completes
 
 
 - Focused stability, media handling, and backend readiness for demo.
+
+- Integrated new PDF generation flow for swap requests 
+- Iterated on swap_process trigger states
+- Synced backend with master multiple times to resolve conflicts 
+- Refactored PDF form structure after feedback
+- Adjusted PDF generation step in swap workflow
+- Pulled and merged frontend changes related to property thumbnails
