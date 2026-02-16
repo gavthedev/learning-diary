@@ -7,3 +7,5 @@ wednesday, no code just work and rest
 Thursday, no coding, workday
 
 friday, developed pony ORM.
+
+monday, no coding, worked
