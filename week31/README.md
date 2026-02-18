@@ -8,4 +8,4 @@ Thursday, no coding, workday
 
 friday, developed pony ORM.
 
-monday, no coding, worked
+saturday no coding, worked
