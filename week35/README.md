@@ -1,6 +1,8 @@
 No coding today
 Workday, no code
 
+No studying today
+
 Today was working, no study
 
 Work day, no study
